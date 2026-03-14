@@ -7,7 +7,7 @@ const SKILLS = [
 ];
 
 const LINKS = [
-  { label: 'GitHub',  href: 'https://github.com/yourusername' },
+  { label: 'GitHub',  href: 'https://github.com/steven666666666' },
   { label: 'Twitter', href: 'https://twitter.com/yourusername' },
   { label: 'Email',   href: 'mailto:you@example.com' },
 ];
