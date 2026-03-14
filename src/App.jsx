@@ -8,6 +8,7 @@ import TagPosts from './pages/TagPosts';
 import About from './pages/About';
 import Search from './pages/Search';
 import NotFound from './pages/NotFound';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function App() {
   return (
