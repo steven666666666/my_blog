@@ -8,10 +8,11 @@ import TagPosts from './pages/TagPosts';
 import About from './pages/About';
 import Search from './pages/Search';
 import NotFound from './pages/NotFound';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
+    <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -26,5 +27,7 @@ export default function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    <Analytics />
+    </>
   );
 }
